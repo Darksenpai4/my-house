@@ -29,6 +29,18 @@ public class Picture
         moon.makeInvisible();
         sun.slowMoveVertical(-250);
         
+        peep1 = new Person();
+        peep1.makeVisible();
+        peep1.moveHorizontal(-300);
+        peep1.moveVertical(50);
+                
+        peep2 = new Person();
+        peep2.makeVisible();
+        peep2.moveHorizontal(300);
+        peep2.moveVertical(50);
+        
+        peep1.slowMoveHorizontal(200);
+        peep2.slowMoveHorizontal(-300);
     }
 
     /**
